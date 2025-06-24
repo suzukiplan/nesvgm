@@ -1,4 +1,4 @@
-# NES VGM Driver
+# nesvgm.hpp - NES VGM Driver
 
 このプログラムは [NSFPlay/NSFPlug](https://github.com/bbbradsmith/nsfplay) の実装から NSFPlug に含まれる NES APU の実装部分を抽出して、VGM形式のパーサーを追加実装した C++ シングルヘッダ形式のファミコン標準音源エミュレータです。
 
