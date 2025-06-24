@@ -5,7 +5,7 @@
 // nsfplay: https://github.com/bbbradsmith/nsfplay
 // Original auther: Mamiya (mamiya@proc.org.tohoku.ac.jp)
 // Modified by: Yoji Suzuki (SUZUKI PLAN)
-// License under GPLv3
+// License under MIT
 //
 // NOTE: This source code is based on the following source codes:
 // - https://github.com/bbbradsmith/nsfplay/blob/master/xgm/devices/device.h
