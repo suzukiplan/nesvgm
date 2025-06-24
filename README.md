@@ -55,4 +55,4 @@ nes->Render(samplingBuffer, samplingNumber);
 
 [MIT](LICENSE.txt)
 
-元となる NES APU のソースコードライセンスが不明（[参考]()）
+> 備考: 元となる NES APU の実装は Digital Sound Antiques さんが配布しているもの（[参考](https://github.com/bbbradsmith/nsfplay/blob/master/xgm/readme_ja.txt)）で、ライセンスに関する記載がありませんが、Digital Sound Antiques さんは他のエミュレータを MIT ライセンスで配布されているため、恐らく MIT ライセンスであれば互換性があるものと想定して MIT ライセンスに設定しています。もしも、Digital Sound Antiques さんから怒られたらライセンス修正するなり公開停止するなりの対応をする可能性があります。NES APU 実装部分を含めて不明点などがある場合は[当方](https://github.com/suzukiplan/nesvgm/issues)までご報告ください。
