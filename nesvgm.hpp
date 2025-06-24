@@ -1,4 +1,4 @@
-// NES APU Emulator for VGM (modified from nsfplay)
+// NES VGM Driver (modified from nsfplay)
 // This code is a NES APU emulator that supports VGM playback with a basic configuration of waveform memory sound source (2 channels), triangle wave (1 channel), and noise (1 channel).
 // DMC-related audio that depends on CPU emulation may not be played back correctly. (Not tested)
 //
