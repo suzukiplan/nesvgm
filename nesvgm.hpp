@@ -23,7 +23,6 @@
 #include <stdint.h>
 
 extern "C" {
-extern const unsigned short vgs0_rand16[65536];
 extern const short rom_tndtable[65536];
 };
 
@@ -1291,12 +1290,12 @@ class NES_DMC : public ISoundChip
 
         uint16_t r = 0;
         if (option[OPT_RANDOMIZE_NOISE]) {
-            noise |= vgs0_rand16[r++];
-            counter[1] = -(vgs0_rand16[r++] & 511);
+            noise |= 12345;
+            counter[1] = -(64890 & 511);
         }
         if (option[OPT_RANDOMIZE_TRI]) {
-            tphase = vgs0_rand16[r++] & 31;
-            counter[0] = -(vgs0_rand16[r++] & 2047);
+            tphase = 23456 & 31;
+            counter[0] = -(54321 & 2047);
         }
 
         SetRate(rate);
