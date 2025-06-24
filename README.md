@@ -8,7 +8,7 @@ For example, it is intended for use in cases where you want to play NES sound so
 
 ## How to Use
 
-Just add [nesvgm.hpp](nesvgm.hpp) and [rom_tndtable.c](rom_tndtable.c) to your project and `#include "nesvgm.hpp"`.
+Just add [nesvgm.hpp](nesvgm.hpp) to your project and `#include` it.
 
 ### 1. Include
 
